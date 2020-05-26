@@ -13,23 +13,24 @@ class myDocument extends Document {
      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
           {/* <link rel="stylesheet" href="/static/styles.css" /> */}
           {/*
+
+              
         import boostrap and other css files
         */}
-          <link rel="stylesheet" href="/static/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/static/css/bootstrap.min.css" />
           <link rel="stylesheet" href="/static/css/font-awesome.min.css" />
           <link rel="stylesheet" href="/static/css/animate.css" />
           <link rel="stylesheet" href="/static/css/owl.carousel.css" />
           <link rel="stylesheet" href="/static/css/owl.theme.default.min.css" />
-          <script src="https://kit.fontawesome.com/1f862ba2ec.js" crossorigin="anonymous"></script>
-      {/* MAIN CSS  */}
-      <link rel="stylesheet" href="/static/css/tooplate-style.css"></link>
+          <link rel="stylesheet" href="/static/css/tooplate-style.css" />
+          <script src="https://kit.fontawesome.com/1f862ba2ec.js" crossorigin="anonymous" />
+          {/* <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"></link> */}
+       
 
-          {/* <link
-          rel="stylesheet"
-          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-          crossorigin="anonymous"
-        /> */}
+      
+
+    
         </Head>
 
         <body>

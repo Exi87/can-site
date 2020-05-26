@@ -1140,30 +1140,12 @@ class myDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18,
-        columnNumber: 11
+        lineNumber: 20,
+        columnNumber: 9
       }
     }), __jsx("link", {
       rel: "stylesheet",
       href: "/static/css/font-awesome.min.css",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 19,
-        columnNumber: 11
-      }
-    }), __jsx("link", {
-      rel: "stylesheet",
-      href: "/static/css/animate.css",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 20,
-        columnNumber: 11
-      }
-    }), __jsx("link", {
-      rel: "stylesheet",
-      href: "/static/css/owl.carousel.css",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -1172,20 +1154,29 @@ class myDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       }
     }), __jsx("link", {
       rel: "stylesheet",
-      href: "/static/css/owl.theme.default.min.css",
+      href: "/static/css/animate.css",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 22,
         columnNumber: 11
       }
-    }), __jsx("script", {
-      src: "https://kit.fontawesome.com/1f862ba2ec.js",
-      crossorigin: "anonymous",
+    }), __jsx("link", {
+      rel: "stylesheet",
+      href: "/static/css/owl.carousel.css",
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 23,
+        columnNumber: 11
+      }
+    }), __jsx("link", {
+      rel: "stylesheet",
+      href: "/static/css/owl.theme.default.min.css",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24,
         columnNumber: 11
       }
     }), __jsx("link", {
@@ -1195,27 +1186,36 @@ class myDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 25,
-        columnNumber: 7
+        columnNumber: 11
+      }
+    }), __jsx("script", {
+      src: "https://kit.fontawesome.com/1f862ba2ec.js",
+      crossorigin: "anonymous",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26,
+        columnNumber: 11
       }
     })), __jsx("body", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 35,
+        lineNumber: 36,
         columnNumber: 9
       }
     }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 36,
+        lineNumber: 37,
         columnNumber: 11
       }
     }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38,
+        lineNumber: 39,
         columnNumber: 11
       }
     }), __jsx("script", {
@@ -1223,7 +1223,7 @@ class myDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 40,
+        lineNumber: 41,
         columnNumber: 6
       }
     }), __jsx("script", {
@@ -1231,7 +1231,7 @@ class myDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 41,
+        lineNumber: 42,
         columnNumber: 6
       }
     }), __jsx("script", {
@@ -1239,7 +1239,7 @@ class myDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42,
+        lineNumber: 43,
         columnNumber: 6
       }
     }), __jsx("script", {
@@ -1247,7 +1247,7 @@ class myDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 43,
+        lineNumber: 44,
         columnNumber: 6
       }
     }), __jsx("script", {
@@ -1255,7 +1255,7 @@ class myDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 44,
+        lineNumber: 45,
         columnNumber: 6
       }
     }), __jsx("script", {
@@ -1263,7 +1263,7 @@ class myDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 45,
+        lineNumber: 46,
         columnNumber: 6
       }
     }), __jsx("script", {
@@ -1271,7 +1271,7 @@ class myDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 46,
+        lineNumber: 47,
         columnNumber: 6
       }
     }), __jsx("script", {
@@ -1279,7 +1279,7 @@ class myDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 47,
+        lineNumber: 48,
         columnNumber: 6
       }
     })));

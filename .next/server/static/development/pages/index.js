@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -201,46 +201,46 @@ const Header = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 1
+      lineNumber: 4,
+      columnNumber: 5
     }
   }, __jsx("div", {
     class: "container",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 1
+      lineNumber: 5,
+      columnNumber: 7
     }
   }, __jsx("div", {
     class: "row",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 6
+      lineNumber: 6,
+      columnNumber: 9
     }
   }, __jsx("div", {
     class: "col-md-4 col-sm-5",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 7,
       columnNumber: 11
     }
   }, __jsx("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 10
+      lineNumber: 8,
+      columnNumber: 13
     }
   }, canSigle)), __jsx("div", {
     class: "col-md-8 col-sm-7 text-align-right",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 11,
       columnNumber: 11
     }
   }, __jsx("span", {
@@ -248,24 +248,24 @@ const Header = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 5
+      lineNumber: 12,
+      columnNumber: 13
     }
   }, __jsx("i", {
     class: "fa fa-phone",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 30
+      lineNumber: 13,
+      columnNumber: 15
     }
   }), " ", canTel), __jsx("span", {
     class: "date-icon",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 5
+      lineNumber: 15,
+      columnNumber: 13
     }
   }, __jsx("i", {
     class: "fa fa-calendar-plus-o",
@@ -273,34 +273,34 @@ const Header = props => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16,
-      columnNumber: 29
+      columnNumber: 15
     }
   }), " ", canHoraire), __jsx("span", {
     class: "email-icon",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 5
+      lineNumber: 18,
+      columnNumber: 13
     }
   }, __jsx("i", {
     class: "fa fa-envelope-o",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 30
+      lineNumber: 19,
+      columnNumber: 15
     }
   }), " ", __jsx("a", {
     href: "#",
     style: {
-      color: '#4267b2'
+      color: "#4267b2"
     },
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 63
+      lineNumber: 20,
+      columnNumber: 15
     }
   }, canMail))))));
 };
@@ -321,20 +321,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Nav */ "./components/Nav.js");
-/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./header */ "./components/header.js");
-/* harmony import */ var _spinner__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./spinner */ "./components/spinner.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./header */ "./components/header.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "C:\\Users\\CAN116\\Desktop\\hello-next\\components\\layout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
- //import Menu from "./menu";
+
+ //import Spinner from "./spinner";
+//import Menu from "./menu";
 
 const homeImage = {};
 
 const Layout = ({
   children,
-  mainTitle,
   canSigle,
   footer
 }) => __jsx("body", {
@@ -345,36 +349,29 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11,
+    lineNumber: 10,
     columnNumber: 3
   }
-}, __jsx(_spinner__WEBPACK_IMPORTED_MODULE_3__["default"], {
+}, __jsx(_header__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  canInfo: {
+    canSigle: "Bienvenue au Centre Ambulancier National(CAN)",
+    canTel: "116",
+    canHoraire: "24 sur 24(Lun-Dim)",
+    canMail: "cann116@mspp.gouv.ht"
+  },
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 17,
     columnNumber: 5
   }
-}), __jsx(_header__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  canInfo: {
-    canSigle: "Welcome to Centre Ambulancier National(CAN)",
-    canTel: "116",
-    canHoraire: "24 sur 24 PM (Mon-Sun)",
-    canMail: "cann116@mspp.gouv.ht"
-  },
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 18,
-    columnNumber: 5
-  }
 }), children, __jsx("section", {
-  class: "navbar navbar-default navbar-static-top",
+  class: "navbar navbar-default navbar-static-top ",
   role: "navigation",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 29,
+    lineNumber: 28,
     columnNumber: 5
   }
 }, __jsx("div", {
@@ -382,7 +379,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 30,
+    lineNumber: 29,
     columnNumber: 7
   }
 }, __jsx("div", {
@@ -390,7 +387,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 31,
+    lineNumber: 30,
     columnNumber: 9
   }
 }, __jsx("button", {
@@ -400,10 +397,18 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 32,
+    lineNumber: 31,
     columnNumber: 11
   }
 }, __jsx("span", {
+  class: "icon icon-bar",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 36,
+    columnNumber: 13
+  }
+}), __jsx("span", {
   class: "icon icon-bar",
   __self: undefined,
   __source: {
@@ -419,37 +424,29 @@ const Layout = ({
     lineNumber: 38,
     columnNumber: 13
   }
-}), __jsx("span", {
-  class: "icon icon-bar",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 39,
-    columnNumber: 13
-  }
 })), __jsx("a", {
   href: "index.html",
   class: "navbar-brand",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 42,
+    lineNumber: 40,
     columnNumber: 11
   }
 }, __jsx("i", {
-  class: "",
+  class: "fa ",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 43,
+    lineNumber: 41,
     columnNumber: 13
   }
-}), "CAN116")), __jsx("div", {
+}), "CAN")), __jsx("div", {
   class: "collapse navbar-collapse",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 47,
+    lineNumber: 53,
     columnNumber: 9
   }
 }, __jsx("ul", {
@@ -457,30 +454,14 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 48,
+    lineNumber: 54,
     columnNumber: 11
   }
 }, __jsx("li", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 49,
-    columnNumber: 13
-  }
-}, __jsx("a", {
-  href: "#home",
-  class: "smoothScroll",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 50,
-    columnNumber: 15
-  }
-}, "Home")), __jsx("li", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 54,
+    lineNumber: 66,
     columnNumber: 13
   }
 }, __jsx("a", {
@@ -489,30 +470,14 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 55,
+    lineNumber: 67,
     columnNumber: 15
   }
-}, "About Us")), __jsx("li", {
+}, "A propos")), __jsx("li", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 59,
-    columnNumber: 13
-  }
-}, __jsx("a", {
-  href: "#team",
-  class: "smoothScroll",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 60,
-    columnNumber: 15
-  }
-}, "Doctors")), __jsx("li", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 64,
+    lineNumber: 76,
     columnNumber: 13
   }
 }, __jsx("a", {
@@ -521,14 +486,14 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 65,
+    lineNumber: 77,
     columnNumber: 15
   }
-}, "News")), __jsx("li", {
+}, "Nos Sections")), __jsx("li", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 69,
+    lineNumber: 81,
     columnNumber: 13
   }
 }, __jsx("a", {
@@ -537,7 +502,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 70,
+    lineNumber: 82,
     columnNumber: 15
   }
 }, "Contact")), __jsx("li", {
@@ -545,7 +510,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 74,
+    lineNumber: 86,
     columnNumber: 13
   }
 }, __jsx("a", {
@@ -553,190 +518,15 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 75,
+    lineNumber: 87,
     columnNumber: 15
   }
 }, "Make an appointment")))))), __jsx("section", {
-  id: "home",
-  class: "slider",
-  "data-stellar-background-ratio": "0.5",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 82,
-    columnNumber: 5
-  }
-}, __jsx("div", {
-  class: "container",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 83,
-    columnNumber: 7
-  }
-}, __jsx("div", {
-  class: "row",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 84,
-    columnNumber: 9
-  }
-}, __jsx("div", {
-  class: "owl-carousel owl-theme",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 86,
-    columnNumber: 11
-  }
-}, __jsx("div", {
-  class: "item item-first",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 87,
-    columnNumber: 31
-  }
-}, __jsx("div", {
-  class: "caption",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 89,
-    columnNumber: 36
-  }
-}, __jsx("div", {
-  class: "col-md-offset-1 col-md-10",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 90,
-    columnNumber: 41
-  }
-}, __jsx("h3", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 91,
-    columnNumber: 46
-  }
-}, "Let's make your life happier"), __jsx("h1", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 92,
-    columnNumber: 46
-  }
-}, "Healthy Living"), __jsx("a", {
-  href: "#team",
-  class: "section-btn btn btn-default smoothScroll",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 93,
-    columnNumber: 46
-  }
-}, "Meet Our Doctors")))), __jsx("div", {
-  class: "item item-second",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 98,
-    columnNumber: 31
-  }
-}, __jsx("div", {
-  class: "caption",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 99,
-    columnNumber: 36
-  }
-}, __jsx("div", {
-  class: "col-md-offset-1 col-md-10",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 100,
-    columnNumber: 41
-  }
-}, __jsx("h3", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 101,
-    columnNumber: 46
-  }
-}, "Aenean luctus lobortis tellus"), __jsx("h1", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 102,
-    columnNumber: 46
-  }
-}, "New Lifestyle"), __jsx("a", {
-  href: "#about",
-  class: "section-btn btn btn-default btn-gray smoothScroll",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 103,
-    columnNumber: 46
-  }
-}, "More About Us")))), __jsx("div", {
-  class: "item item-third",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 108,
-    columnNumber: 31
-  }
-}, __jsx("div", {
-  class: "caption",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 109,
-    columnNumber: 36
-  }
-}, __jsx("div", {
-  class: "col-md-offset-1 col-md-10",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 110,
-    columnNumber: 41
-  }
-}, __jsx("h3", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 111,
-    columnNumber: 46
-  }
-}, "Pellentesque nec libero nisi"), __jsx("h1", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 112,
-    columnNumber: 46
-  }
-}, "Your Health Benefits"), __jsx("a", {
-  href: "#news",
-  class: "section-btn btn btn-default btn-blue smoothScroll",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 113,
-    columnNumber: 46
-  }
-}, "Read Stories")))))))), __jsx("section", {
   id: "about",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 123,
+    lineNumber: 121,
     columnNumber: 5
   }
 }, __jsx("div", {
@@ -744,7 +534,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 124,
+    lineNumber: 122,
     columnNumber: 7
   }
 }, __jsx("div", {
@@ -752,7 +542,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 125,
+    lineNumber: 123,
     columnNumber: 9
   }
 }, __jsx("div", {
@@ -760,7 +550,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 126,
+    lineNumber: 124,
     columnNumber: 11
   }
 }, __jsx("div", {
@@ -768,7 +558,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 127,
+    lineNumber: 125,
     columnNumber: 13
   }
 }, __jsx("h2", {
@@ -777,16 +567,16 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 128,
+    lineNumber: 126,
     columnNumber: 15
   }
-}, "Welcome to Centre ", __jsx("i", {
+}, "Bienvenue au Centre ", __jsx("i", {
   class: "fa fa-a-square",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 129,
-    columnNumber: 35
+    lineNumber: 127,
+    columnNumber: 37
   }
 }), "Ambulancier National"), __jsx("div", {
   class: "wow fadeInUp",
@@ -794,21 +584,21 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 132,
+    lineNumber: 130,
     columnNumber: 15
   }
 }, __jsx("p", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 133,
+    lineNumber: 131,
     columnNumber: 17
   }
 }, "Aenean luctus lobortis tellus, vel ornare enim molestie condimentum. Curabitur lacinia nisi vitae velit volutpat venenatis."), __jsx("p", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 138,
+    lineNumber: 136,
     columnNumber: 17
   }
 }, "Sed a dignissim lacus. Quisque fermentum est non orci commodo, a luctus urna mattis. Ut placerat, diam a tempus vehicula.")), __jsx("figure", {
@@ -817,7 +607,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 143,
+    lineNumber: 141,
     columnNumber: 15
   }
 }, __jsx("img", {
@@ -827,37 +617,37 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 144,
+    lineNumber: 142,
     columnNumber: 17
   }
 }), __jsx("figcaption", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 149,
+    lineNumber: 147,
     columnNumber: 17
   }
 }, __jsx("h3", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 150,
+    lineNumber: 148,
     columnNumber: 19
   }
-}, "Dr. Neil Jackson"), __jsx("p", {
+}, "Dr. Herold Didie Louis"), __jsx("p", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 151,
+    lineNumber: 149,
     columnNumber: 19
   }
-}, "General Principal")))))))), __jsx("section", {
-  id: "team",
-  "data-stellar-background-ratio": "1",
+}, "Directeur Principal")))))))), __jsx("section", {
+  id: "news",
+  "data-stellar-background-ratio": "2.5",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 159,
+    lineNumber: 168,
     columnNumber: 5
   }
 }, __jsx("div", {
@@ -865,477 +655,755 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 160,
+    lineNumber: 169,
     columnNumber: 7
   }
 }, __jsx("div", {
-  class: "row",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 161,
-    columnNumber: 9
-  }
-}, __jsx("div", {
-  class: "col-md-6 col-sm-6",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 162,
-    columnNumber: 11
-  }
-}, __jsx("div", {
-  class: "about-info",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 163,
-    columnNumber: 13
-  }
-}, __jsx("h2", {
-  class: "wow fadeInUp",
-  "data-wow-delay": "0.1s",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 164,
-    columnNumber: 15
-  }
-}, "Our Doctors"))), __jsx("div", {
-  class: "clearfix",
+  className: "row",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 170,
-    columnNumber: 11
+    columnNumber: 9
   }
-}), __jsx("div", {
-  class: "col-md-4 col-sm-6",
+}, __jsx("div", {
+  class: "col-md-12 col-sm-12",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 172,
+    lineNumber: 171,
     columnNumber: 11
   }
 }, __jsx("div", {
-  class: "team-thumb wow fadeInUp",
-  "data-wow-delay": "0.2s",
+  class: "section-title wow fadeInUp",
+  "data-wow-delay": "0.1s",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 173,
     columnNumber: 13
   }
-}, __jsx("img", {
-  src: "static/images/team-image1.jpg",
-  class: "img-responsive",
-  alt: "",
+}, __jsx("h2", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 174,
     columnNumber: 15
   }
-}), __jsx("div", {
-  class: "team-info",
+}, "Sections"))), __jsx("div", {
+  class: "col-md-4 col-sm-6",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 178,
+    columnNumber: 11
+  }
+}, __jsx("div", {
+  class: "news-thumb wow fadeInUp",
+  "data-wow-delay": "0.4s",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 180,
-    columnNumber: 15
+    columnNumber: 13
   }
-}, __jsx("h3", {
+}, __jsx("a", {
+  href: "news-detail.html",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 181,
-    columnNumber: 17
+    columnNumber: 15
   }
-}, "Nate Baston"), __jsx("p", {
+}, __jsx("img", {
+  src: "/static/images/news-image1.jpg",
+  class: "img-responsive",
+  alt: "",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 182,
     columnNumber: 17
   }
-}, "General Principal"), __jsx("div", {
-  class: "team-contact-info",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 183,
-    columnNumber: 17
-  }
-}, __jsx("p", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 184,
-    columnNumber: 19
-  }
-}, __jsx("i", {
-  class: "fa fa-phone",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 185,
-    columnNumber: 21
-  }
-}), " 010-020-0120"), __jsx("p", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 187,
-    columnNumber: 19
-  }
-}, __jsx("i", {
-  class: "fa fa-envelope-o",
+})), __jsx("div", {
+  class: "news-info",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 188,
-    columnNumber: 21
-  }
-}), " ", __jsx("a", {
-  href: "#",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 189,
-    columnNumber: 21
-  }
-}, "general@company.com"))), __jsx("ul", {
-  class: "social-icon",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 192,
-    columnNumber: 17
-  }
-}, __jsx("li", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 193,
-    columnNumber: 19
-  }
-}, __jsx("a", {
-  href: "#",
-  class: "fa fa-linkedin-square",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 194,
-    columnNumber: 21
-  }
-})), __jsx("li", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 196,
-    columnNumber: 19
-  }
-}, __jsx("a", {
-  href: "#",
-  class: "fa fa-envelope-o",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 197,
-    columnNumber: 21
-  }
-})))))), __jsx("div", {
-  class: "col-md-4 col-sm-6",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 204,
-    columnNumber: 11
-  }
-}, __jsx("div", {
-  class: "team-thumb wow fadeInUp",
-  "data-wow-delay": "0.4s",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 205,
-    columnNumber: 13
-  }
-}, __jsx("img", {
-  src: "static/images/team-image2.jpg",
-  class: "img-responsive",
-  alt: "",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 206,
-    columnNumber: 15
-  }
-}), __jsx("div", {
-  class: "team-info",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 212,
     columnNumber: 15
   }
 }, __jsx("h3", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 213,
+    lineNumber: 190,
     columnNumber: 17
   }
-}, "Jason Stewart"), __jsx("p", {
+}, __jsx("a", {
+  href: "news-detail.html",
+  style: {},
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 214,
-    columnNumber: 17
-  }
-}, "Pregnancy"), __jsx("div", {
-  class: "team-contact-info",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 215,
-    columnNumber: 17
-  }
-}, __jsx("p", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 216,
+    lineNumber: 191,
     columnNumber: 19
   }
-}, __jsx("i", {
-  class: "fa fa-phone",
+}, " ", "Section flotte")), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 198,
+    columnNumber: 17
+  }
+}, "Fusce vel sem finibus, rhoncus massa non, aliquam velit. Nam et est ligula.", __jsx("a", {
+  href: "news-detail.html",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 200,
+    columnNumber: 33
+  }
+}, " Lire la suite")), __jsx("div", {
+  class: "author",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 202,
+    columnNumber: 17
+  }
+}, __jsx("img", {
+  src: "/static/images/author-image.jpg",
+  class: "img-responsive",
+  alt: "",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 203,
+    columnNumber: 19
+  }
+}), __jsx("div", {
+  class: "author-info",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 208,
+    columnNumber: 19
+  }
+}, __jsx("h5", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 209,
+    columnNumber: 21
+  }
+}, "Responsable"), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 210,
+    columnNumber: 21
+  }
+}, "Exinord")))))), __jsx("div", {
+  class: "col-md-4 col-sm-6",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 217,
-    columnNumber: 21
+    columnNumber: 11
   }
-}), " 010-070-0170"), __jsx("p", {
+}, __jsx("div", {
+  class: "news-thumb wow fadeInUp",
+  "data-wow-delay": "0.4s",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 219,
-    columnNumber: 19
+    columnNumber: 13
   }
-}, __jsx("i", {
-  class: "fa fa-envelope-o",
+}, __jsx("a", {
+  href: "news-detail.html",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 220,
-    columnNumber: 21
-  }
-}), " ", __jsx("a", {
-  href: "#",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 221,
-    columnNumber: 21
-  }
-}, "pregnancy@company.com"))), __jsx("ul", {
-  class: "social-icon",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 224,
-    columnNumber: 17
-  }
-}, __jsx("li", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 225,
-    columnNumber: 19
-  }
-}, __jsx("a", {
-  href: "#",
-  class: "fa fa-facebook-square",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 226,
-    columnNumber: 21
-  }
-})), __jsx("li", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 228,
-    columnNumber: 19
-  }
-}, __jsx("a", {
-  href: "#",
-  class: "fa fa-envelope-o",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 229,
-    columnNumber: 21
-  }
-})), __jsx("li", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 231,
-    columnNumber: 19
-  }
-}, __jsx("a", {
-  href: "#",
-  class: "fa fa-flickr",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 232,
-    columnNumber: 21
-  }
-})))))), __jsx("div", {
-  class: "col-md-4 col-sm-6",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 239,
-    columnNumber: 11
-  }
-}, __jsx("div", {
-  class: "team-thumb wow fadeInUp",
-  "data-wow-delay": "0.6s",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 240,
-    columnNumber: 13
+    columnNumber: 15
   }
 }, __jsx("img", {
-  src: "static/images/team-image3.jpg",
+  src: "/static/images/news-image1.jpg",
   class: "img-responsive",
   alt: "",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 241,
-    columnNumber: 15
+    lineNumber: 221,
+    columnNumber: 17
   }
-}), __jsx("div", {
-  class: "team-info",
+})), __jsx("div", {
+  class: "news-info",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 247,
+    lineNumber: 227,
     columnNumber: 15
   }
 }, __jsx("h3", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 248,
+    lineNumber: 229,
     columnNumber: 17
   }
-}, "Miasha Nakahara"), __jsx("p", {
+}, __jsx("a", {
+  href: "news-detail.html",
+  style: {},
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 230,
+    columnNumber: 19
+  }
+}, " ", "Section flotte")), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 237,
+    columnNumber: 17
+  }
+}, "Fusce vel sem finibus, rhoncus massa non, aliquam velit. Nam et est ligula.", __jsx("a", {
+  href: "news-detail.html",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 239,
+    columnNumber: 33
+  }
+}, " Lire la suite")), __jsx("div", {
+  class: "author",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 241,
+    columnNumber: 17
+  }
+}, __jsx("img", {
+  src: "/static/images/author-image.jpg",
+  class: "img-responsive",
+  alt: "",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 242,
+    columnNumber: 19
+  }
+}), __jsx("div", {
+  class: "author-info",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 247,
+    columnNumber: 19
+  }
+}, __jsx("h5", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 248,
+    columnNumber: 21
+  }
+}, "Responsable"), __jsx("p", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 249,
-    columnNumber: 17
-  }
-}, "Cardiology"), __jsx("div", {
-  class: "team-contact-info",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 250,
-    columnNumber: 17
-  }
-}, __jsx("p", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 251,
-    columnNumber: 19
-  }
-}, __jsx("i", {
-  class: "fa fa-phone",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 252,
     columnNumber: 21
   }
-}), " 010-040-0140"), __jsx("p", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 254,
-    columnNumber: 19
-  }
-}, __jsx("i", {
-  class: "fa fa-envelope-o",
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 255,
-    columnNumber: 21
-  }
-}), " ", __jsx("a", {
-  href: "#",
+}, "Exinord")))))), __jsx("div", {
+  class: "col-md-4 col-sm-6",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 256,
-    columnNumber: 21
+    columnNumber: 11
   }
-}, "cardio@company.com"))), __jsx("ul", {
-  class: "social-icon",
+}, __jsx("div", {
+  class: "news-thumb wow fadeInUp",
+  "data-wow-delay": "0.4s",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 258,
+    columnNumber: 13
+  }
+}, __jsx("a", {
+  href: "news-detail.html",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 259,
-    columnNumber: 17
+    columnNumber: 15
   }
-}, __jsx("li", {
+}, __jsx("img", {
+  src: "/static/images/news-image1.jpg",
+  class: "img-responsive",
+  alt: "",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 260,
-    columnNumber: 19
+    columnNumber: 17
+  }
+})), __jsx("div", {
+  class: "news-info",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 266,
+    columnNumber: 15
+  }
+}, __jsx("h3", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 268,
+    columnNumber: 17
   }
 }, __jsx("a", {
-  href: "#",
-  class: "fa fa-twitter",
+  href: "news-detail.html",
+  style: {},
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 261,
-    columnNumber: 21
-  }
-})), __jsx("li", {
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 263,
+    lineNumber: 269,
     columnNumber: 19
   }
-}, __jsx("a", {
-  href: "#",
-  class: "fa fa-envelope-o",
+}, " ", "Section flotte")), __jsx("p", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 264,
+    lineNumber: 276,
+    columnNumber: 17
+  }
+}, "Fusce vel sem finibus, rhoncus massa non, aliquam velit. Nam et est ligula.", __jsx("a", {
+  href: "news-detail.html",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 278,
+    columnNumber: 33
+  }
+}, " Lire la suite")), __jsx("div", {
+  class: "author",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 280,
+    columnNumber: 17
+  }
+}, __jsx("img", {
+  src: "/static/images/author-image.jpg",
+  class: "img-responsive",
+  alt: "",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 281,
+    columnNumber: 19
+  }
+}), __jsx("div", {
+  class: "author-info",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 286,
+    columnNumber: 19
+  }
+}, __jsx("h5", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 287,
     columnNumber: 21
   }
-}))))))))), __jsx("footer", {
+}, "Responsable"), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 288,
+    columnNumber: 21
+  }
+}, "Exinord")))))), __jsx("div", {
+  class: "col-md-4 col-sm-6",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 295,
+    columnNumber: 11
+  }
+}, __jsx("div", {
+  class: "news-thumb wow fadeInUp",
+  "data-wow-delay": "0.4s",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 297,
+    columnNumber: 13
+  }
+}, __jsx("a", {
+  href: "news-detail.html",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 298,
+    columnNumber: 15
+  }
+}, __jsx("img", {
+  src: "/static/images/news-image1.jpg",
+  class: "img-responsive",
+  alt: "",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 299,
+    columnNumber: 17
+  }
+})), __jsx("div", {
+  class: "news-info",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 305,
+    columnNumber: 15
+  }
+}, __jsx("h3", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 307,
+    columnNumber: 17
+  }
+}, __jsx("a", {
+  href: "news-detail.html",
+  style: {},
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 308,
+    columnNumber: 19
+  }
+}, " ", "Section flotte")), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 315,
+    columnNumber: 17
+  }
+}, "Fusce vel sem finibus, rhoncus massa non, aliquam velit. Nam et est ligula.", __jsx("a", {
+  href: "news-detail.html",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 317,
+    columnNumber: 33
+  }
+}, " Lire la suite")), __jsx("div", {
+  class: "author",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 319,
+    columnNumber: 17
+  }
+}, __jsx("img", {
+  src: "/static/images/author-image.jpg",
+  class: "img-responsive",
+  alt: "",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 320,
+    columnNumber: 19
+  }
+}), __jsx("div", {
+  class: "author-info",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 325,
+    columnNumber: 19
+  }
+}, __jsx("h5", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 326,
+    columnNumber: 21
+  }
+}, "Responsable"), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 327,
+    columnNumber: 21
+  }
+}, "Exinord")))))), __jsx("div", {
+  class: "col-md-4 col-sm-6",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 334,
+    columnNumber: 11
+  }
+}, __jsx("div", {
+  class: "news-thumb wow fadeInUp",
+  "data-wow-delay": "0.4s",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 336,
+    columnNumber: 13
+  }
+}, __jsx("a", {
+  href: "news-detail.html",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 337,
+    columnNumber: 15
+  }
+}, __jsx("img", {
+  src: "/static/images/news-image1.jpg",
+  class: "img-responsive",
+  alt: "",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 338,
+    columnNumber: 17
+  }
+})), __jsx("div", {
+  class: "news-info",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 344,
+    columnNumber: 15
+  }
+}, __jsx("h3", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 346,
+    columnNumber: 17
+  }
+}, __jsx("a", {
+  href: "news-detail.html",
+  style: {},
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 347,
+    columnNumber: 19
+  }
+}, " ", "Section flotte")), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 354,
+    columnNumber: 17
+  }
+}, "Fusce vel sem finibus, rhoncus massa non, aliquam velit. Nam et est ligula.", __jsx("a", {
+  href: "news-detail.html",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 356,
+    columnNumber: 33
+  }
+}, " Lire la suite")), __jsx("div", {
+  class: "author",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 358,
+    columnNumber: 17
+  }
+}, __jsx("img", {
+  src: "/static/images/author-image.jpg",
+  class: "img-responsive",
+  alt: "",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 359,
+    columnNumber: 19
+  }
+}), __jsx("div", {
+  class: "author-info",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 364,
+    columnNumber: 19
+  }
+}, __jsx("h5", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 365,
+    columnNumber: 21
+  }
+}, "Responsable"), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 366,
+    columnNumber: 21
+  }
+}, "Exinord")))))), __jsx("div", {
+  class: "col-md-4 col-sm-6",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 373,
+    columnNumber: 11
+  }
+}, __jsx("div", {
+  class: "news-thumb wow fadeInUp",
+  "data-wow-delay": "0.6s",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 375,
+    columnNumber: 13
+  }
+}, __jsx("a", {
+  href: "news-detail.html",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 376,
+    columnNumber: 15
+  }
+}, __jsx("img", {
+  src: "/static/images/news-image2.jpg",
+  class: "img-responsive",
+  alt: "",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 377,
+    columnNumber: 17
+  }
+})), __jsx("div", {
+  class: "news-info",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 383,
+    columnNumber: 15
+  }
+}, __jsx("h3", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 385,
+    columnNumber: 17
+  }
+}, __jsx("a", {
+  href: "news-detail.html",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 386,
+    columnNumber: 19
+  }
+}, "Centre d'appel")), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 388,
+    columnNumber: 17
+  }
+}, "Fusce vel sem finibus, rhoncus massa non, aliquam velit. Nam et est ligula.", __jsx("a", {
+  href: "news-detail.html",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 390,
+    columnNumber: 33
+  }
+}, " Lire la suite")), __jsx("div", {
+  class: "author",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 392,
+    columnNumber: 17
+  }
+}, __jsx("img", {
+  src: "/static/images/author-image.jpg",
+  class: "img-responsive",
+  alt: "",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 393,
+    columnNumber: 19
+  }
+}), __jsx("div", {
+  class: "author-info",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 398,
+    columnNumber: 19
+  }
+}, __jsx("h5", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 399,
+    columnNumber: 21
+  }
+}, "Responsable"), __jsx("p", {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 400,
+    columnNumber: 21
+  }
+}, "Werley"))))))))), __jsx("section", {
+  id: "google-map",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 414,
+    columnNumber: 5
+  }
+}, __jsx("iframe", {
+  src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.679798714529!2d-72.30740108563094!3d18.543366473317583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb9e7963a3a5a41%3A0x4839bd0dc1e7944b!2sCentre%20Ambulancier%20National!5e0!3m2!1sfr!2sht!4v1590506454383!5m2!1sfr!2sht",
+  style: {
+    width: '100%',
+    height: "350px",
+    frameBorder: "0",
+    border: '0',
+    allowFullScreen: "",
+    ariaHidden: "false",
+    tabindex: "0"
+  },
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 420,
+    columnNumber: 7
+  }
+})), __jsx("footer", {
   "data-stellar-background-ratio": "5",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 274,
+    lineNumber: 438,
     columnNumber: 5
   }
 }, __jsx("div", {
@@ -1343,7 +1411,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 275,
+    lineNumber: 439,
     columnNumber: 7
   }
 }, __jsx("div", {
@@ -1351,7 +1419,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 276,
+    lineNumber: 440,
     columnNumber: 9
   }
 }, __jsx("div", {
@@ -1359,7 +1427,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 277,
+    lineNumber: 441,
     columnNumber: 11
   }
 }, __jsx("div", {
@@ -1367,7 +1435,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 278,
+    lineNumber: 442,
     columnNumber: 13
   }
 }, __jsx("h4", {
@@ -1376,14 +1444,14 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 279,
+    lineNumber: 443,
     columnNumber: 15
   }
 }, "Contact Info"), __jsx("p", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 282,
+    lineNumber: 446,
     columnNumber: 15
   }
 }, "Fusce at libero iaculis, venenatis augue quis, pharetra lorem. Curabitur ut dolor eu elit consequat ultricies."), __jsx("div", {
@@ -1391,14 +1459,14 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 287,
+    lineNumber: 451,
     columnNumber: 15
   }
 }, __jsx("p", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 288,
+    lineNumber: 452,
     columnNumber: 17
   }
 }, __jsx("i", {
@@ -1406,14 +1474,14 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 289,
+    lineNumber: 453,
     columnNumber: 19
   }
 }), " 010-070-0170"), __jsx("p", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 291,
+    lineNumber: 455,
     columnNumber: 17
   }
 }, __jsx("i", {
@@ -1421,7 +1489,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 292,
+    lineNumber: 456,
     columnNumber: 19
   }
 }), " ", __jsx("a", {
@@ -1429,7 +1497,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 293,
+    lineNumber: 457,
     columnNumber: 19
   }
 }, "info@company.com"))))), __jsx("div", {
@@ -1437,7 +1505,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 299,
+    lineNumber: 463,
     columnNumber: 11
   }
 }, __jsx("div", {
@@ -1445,7 +1513,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 300,
+    lineNumber: 464,
     columnNumber: 13
   }
 }, __jsx("h4", {
@@ -1454,7 +1522,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 301,
+    lineNumber: 465,
     columnNumber: 15
   }
 }, "Latest News"), __jsx("div", {
@@ -1462,7 +1530,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 304,
+    lineNumber: 468,
     columnNumber: 15
   }
 }, __jsx("div", {
@@ -1470,7 +1538,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 305,
+    lineNumber: 469,
     columnNumber: 17
   }
 }, __jsx("a", {
@@ -1478,7 +1546,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 306,
+    lineNumber: 470,
     columnNumber: 19
   }
 }, __jsx("img", {
@@ -1488,7 +1556,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 307,
+    lineNumber: 471,
     columnNumber: 21
   }
 }))), __jsx("div", {
@@ -1496,7 +1564,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 314,
+    lineNumber: 478,
     columnNumber: 17
   }
 }, __jsx("a", {
@@ -1504,21 +1572,21 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 315,
+    lineNumber: 479,
     columnNumber: 19
   }
 }, __jsx("h5", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 316,
+    lineNumber: 480,
     columnNumber: 21
   }
 }, "Amazing Technology")), __jsx("span", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 318,
+    lineNumber: 482,
     columnNumber: 19
   }
 }, "March 08, 2018"))), __jsx("div", {
@@ -1526,7 +1594,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 322,
+    lineNumber: 486,
     columnNumber: 15
   }
 }, __jsx("div", {
@@ -1534,7 +1602,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 323,
+    lineNumber: 487,
     columnNumber: 17
   }
 }, __jsx("a", {
@@ -1542,7 +1610,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 324,
+    lineNumber: 488,
     columnNumber: 19
   }
 }, __jsx("img", {
@@ -1552,7 +1620,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 325,
+    lineNumber: 489,
     columnNumber: 21
   }
 }))), __jsx("div", {
@@ -1560,7 +1628,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 332,
+    lineNumber: 496,
     columnNumber: 17
   }
 }, __jsx("a", {
@@ -1568,21 +1636,21 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 333,
+    lineNumber: 497,
     columnNumber: 19
   }
 }, __jsx("h5", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 334,
+    lineNumber: 498,
     columnNumber: 21
   }
 }, "New Healing Process")), __jsx("span", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 336,
+    lineNumber: 500,
     columnNumber: 19
   }
 }, "February 20, 2018"))))), __jsx("div", {
@@ -1590,7 +1658,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 342,
+    lineNumber: 506,
     columnNumber: 11
   }
 }, __jsx("div", {
@@ -1598,7 +1666,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 343,
+    lineNumber: 507,
     columnNumber: 13
   }
 }, __jsx("div", {
@@ -1606,7 +1674,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 344,
+    lineNumber: 508,
     columnNumber: 15
   }
 }, __jsx("h4", {
@@ -1615,49 +1683,49 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 345,
+    lineNumber: 509,
     columnNumber: 17
   }
 }, "Opening Hours"), __jsx("p", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 348,
+    lineNumber: 512,
     columnNumber: 17
   }
 }, "Monday - Friday ", __jsx("span", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 349,
+    lineNumber: 513,
     columnNumber: 35
   }
 }, "06:00 AM - 10:00 PM")), __jsx("p", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 351,
+    lineNumber: 515,
     columnNumber: 17
   }
 }, "Saturday ", __jsx("span", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 352,
+    lineNumber: 516,
     columnNumber: 28
   }
 }, "09:00 AM - 08:00 PM")), __jsx("p", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 354,
+    lineNumber: 518,
     columnNumber: 17
   }
 }, "Sunday ", __jsx("span", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 355,
+    lineNumber: 519,
     columnNumber: 26
   }
 }, "Closed"))), __jsx("ul", {
@@ -1665,14 +1733,14 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 359,
+    lineNumber: 523,
     columnNumber: 15
   }
 }, __jsx("li", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 360,
+    lineNumber: 524,
     columnNumber: 17
   }
 }, __jsx("a", {
@@ -1682,14 +1750,14 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 361,
+    lineNumber: 525,
     columnNumber: 19
   }
 })), __jsx("li", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 367,
+    lineNumber: 531,
     columnNumber: 17
   }
 }, __jsx("a", {
@@ -1698,14 +1766,14 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 368,
+    lineNumber: 532,
     columnNumber: 19
   }
 })), __jsx("li", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 370,
+    lineNumber: 534,
     columnNumber: 17
   }
 }, __jsx("a", {
@@ -1714,7 +1782,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 371,
+    lineNumber: 535,
     columnNumber: 19
   }
 }))))), __jsx("div", {
@@ -1722,7 +1790,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 377,
+    lineNumber: 541,
     columnNumber: 11
   }
 }, __jsx("div", {
@@ -1730,7 +1798,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 378,
+    lineNumber: 542,
     columnNumber: 13
   }
 }, __jsx("div", {
@@ -1738,14 +1806,14 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 379,
+    lineNumber: 543,
     columnNumber: 15
   }
 }, __jsx("p", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 380,
+    lineNumber: 544,
     columnNumber: 17
   }
 }, "Copyright \xA9 2020 Exi.solution | Designer: Ing Marc Erold"))), __jsx("div", {
@@ -1753,7 +1821,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 385,
+    lineNumber: 549,
     columnNumber: 13
   }
 }, __jsx("div", {
@@ -1761,7 +1829,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 386,
+    lineNumber: 550,
     columnNumber: 15
   }
 }, __jsx("a", {
@@ -1769,7 +1837,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 387,
+    lineNumber: 551,
     columnNumber: 17
   }
 }, "Twitter"), __jsx("a", {
@@ -1777,7 +1845,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 388,
+    lineNumber: 552,
     columnNumber: 17
   }
 }, "Instagram"), __jsx("a", {
@@ -1786,7 +1854,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 389,
+    lineNumber: 553,
     columnNumber: 17
   }
 }, "Facebook"), __jsx("a", {
@@ -1794,7 +1862,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 392,
+    lineNumber: 556,
     columnNumber: 17
   }
 }, "Careers"))), __jsx("div", {
@@ -1802,7 +1870,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 395,
+    lineNumber: 559,
     columnNumber: 13
   }
 }, __jsx("div", {
@@ -1810,7 +1878,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 396,
+    lineNumber: 560,
     columnNumber: 15
   }
 }, __jsx("a", {
@@ -1820,7 +1888,7 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 397,
+    lineNumber: 561,
     columnNumber: 17
   }
 }, __jsx("i", {
@@ -1828,62 +1896,263 @@ const Layout = ({
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 402,
+    lineNumber: 566,
     columnNumber: 19
   }
 })))))))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
-
-/***/ }),
-
-/***/ "./components/spinner.js":
-/*!*******************************!*\
-  !*** ./components/spinner.js ***!
-  \*******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\CAN116\\Desktop\\hello-next\\components\\spinner.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-const Spinner = () => {
-  return __jsx("section", {
-    class: "preloader",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 1
-    }
-  }, __jsx("div", {
-    class: "spinner",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 11
-    }
-  }, __jsx("span", {
-    class: "spinner-rotate",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 16
-    }
-  })));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Spinner);
+{
+  /*
+     <section id="team" data-stellar-background-ratio="1">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <div class="about-info">
+              <h2 class="wow fadeInUp" data-wow-delay="0.1s">
+                Nos Sections
+              </h2>
+            </div>
+          </div>
+            <div class="clearfix"></div>
+            <div class="col-md-4 col-sm-6">
+            <div class="team-thumb wow fadeInUp" data-wow-delay="0.2s">
+              <img
+                src="static/images/team-image1.jpg"
+                class="img-responsive"
+                alt=""
+              />
+                <div class="team-info">
+                <h3>Flotte</h3>
+                <p>General Principal</p>
+                <div class="team-contact-info">
+                  <p>
+                    <i class="fa fa-phone"></i> 010-020-0120
+                  </p>
+                  <p>
+                    <i class="fa fa-envelope-o"></i>{" "}
+                    <a href="#">general@company.com</a>
+                  </p>
+                </div>
+                <ul class="social-icon">
+                  <li>
+                    <h3>Flotte</h3>
+                   <a href="#" class="fa fa-linkedin-square"></a> 
+                  </li>
+                  <li>
+                    <a href="#" class="fa fa-envelope-o"></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+            <div class="col-md-4 col-sm-6">
+            <div class="team-thumb wow fadeInUp" data-wow-delay="0.4s">
+              <img
+                src="static/images/team-image2.jpg"
+                class="img-responsive"
+                alt=""
+              />
+                <div class="team-info">
+                <h3>Jason Stewart</h3>
+                <p>Pregnancy</p>
+                <div class="team-contact-info">
+                  <p>
+                    <i class="fa fa-phone"></i> 010-070-0170
+                  </p>
+                  <p>
+                    <i class="fa fa-envelope-o"></i>{" "}
+                    <a href="#">pregnancy@company.com</a>
+                  </p>
+                </div>
+                <ul class="social-icon">
+                  <li>
+                    <a href="#" class="fa fa-facebook-square"></a>
+                  </li>
+                  <li>
+                    <a href="#" class="fa fa-envelope-o"></a>
+                  </li>
+                  <li>
+                    <a href="#" class="fa fa-flickr"></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+            <div class="col-md-4 col-sm-6">
+            <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+              <img
+                src="static/images/team-image3.jpg"
+                class="img-responsive"
+                alt=""
+              />
+                <div class="team-info">
+                <h3>Miasha Nakahara</h3>
+                <p>Cardiology</p>
+                <div class="team-contact-info">
+                  <p>
+                    <i class="fa fa-phone"></i> 010-040-0140
+                  </p>
+                  <p>
+                    <i class="fa fa-envelope-o"></i>{" "}
+                    <a href="#">cardio@company.com</a>
+                  </p>
+                </div>
+                <ul class="social-icon">
+                  <li>
+                    <a href="#" class="fa fa-twitter"></a>
+                  </li>
+                  <li>
+                    <a href="#" class="fa fa-envelope-o"></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  
+  
+  
+  
+         <div class="col-md-4 col-sm-6">
+            <div class="news-thumb wow fadeInUp" data-wow-delay="0.8s">
+              <a href="news-detail.html">
+                <img
+                  src="/static/images/garage.jpg"
+                  class="img-responsive"
+                  alt=""
+                />
+              </a>
+              <div class="news-info">
+                <span>January 27, 2018</span>
+                <h3>
+                  <a href="news-detail.html">Garage</a>
+                </h3>
+                <p>
+                  Fusce vel sem finibus, rhoncus massa non, aliquam velit. Nam
+                  et est ligula.<a href="news-detail.html"> Lire la suite</a>
+                </p>
+                <div class="author">
+                  <img
+                    src="/static/images/author-image.jpg"
+                    class="img-responsive"
+                    alt=""
+                  />
+                  <div class="author-info">
+                    <h5>Responsable</h5>
+                    <p>Cepler</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+                  
+          <div class="col-md-4 col-sm-6">
+            <div class="news-thumb wow fadeInUp" data-wow-delay="0.8s">
+              <a href="news-detail.html">
+                <img
+                  src="/static/images/news-image3.jpg"
+                  class="img-responsive"
+                  alt=""
+                />
+              </a>
+              <div class="news-info">
+                <span>January 27, 2018</span>
+                <h3>
+                  <a href="news-detail.html">Logistique</a>
+                </h3>
+                <p>
+                  Fusce vel sem finibus, rhoncus massa non, aliquam velit. Nam
+                  et est ligula.<a href="news-detail.html"> Lire la suite</a>
+                </p>
+                <div class="author">
+                  <img
+                    src="/static/images/author-image.jpg"
+                    class="img-responsive"
+                    alt=""
+                  />
+                  <div class="author-info">
+                    <h5>Responsable</h5>
+                    <p>Saintyl</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          
+            <div class="col-md-4 col-sm-6">
+            <div class="news-thumb wow fadeInUp" data-wow-delay="0.8s">
+              <a href="news-detail.html">
+                <img
+                  src="/static/images/news-image3.jpg"
+                  class="img-responsive"
+                  alt=""
+                />
+              </a>
+              <div class="news-info">
+                <span>January 27, 2018</span>
+                <h3>
+                  <a href="news-detail.html">Information et Communication</a>
+                </h3>
+                <p>
+                  Fusce vel sem finibus, rhoncus massa non, aliquam velit. Nam
+                  et est ligula.<a href="news-detail.html"> Lire la suite</a>
+                </p>
+                <div class="author">
+                  <img
+                    src="/static/images/author-image.jpg"
+                    class="img-responsive"
+                    alt=""
+                  />
+                  <div class="author-info">
+                    <h5>Responsable</h5>
+                    <p>Cepler</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="news-thumb wow fadeInUp" data-wow-delay="0.8s">
+              <a href="news-detail.html">
+                <img
+                  src="/static/images/news-image3.jpg"
+                  class="img-responsive"
+                  alt=""
+                />
+              </a>
+              <div class="news-info">
+                <span>January 27, 2018</span>
+                <h3>
+                  <a href="news-detail.html">Garage</a>
+                </h3>
+                <p>
+                  Fusce vel sem finibus, rhoncus massa non, aliquam velit. Nam
+                  et est ligula.<a href="news-detail.html"> Lire la suite</a>
+                </p>
+                <div class="author">
+                  <img
+                    src="/static/images/author-image.jpg"
+                    class="img-responsive"
+                    alt=""
+                  />
+                  <div class="author-info">
+                    <h5>Responsable</h5>
+                    <p>Cepler</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          
+  */
+  //section
+}
 
 /***/ }),
 
@@ -3641,7 +3910,7 @@ const Index = () => {
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

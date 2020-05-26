@@ -12,6 +12,10 @@ const SinglePage = () => {
         <meta name="description" content="my SEO react app with next js" />
 
         <meta name="description" content="my SEO react app with next js" />
+
+  
+
+
       </Head>
 
       
